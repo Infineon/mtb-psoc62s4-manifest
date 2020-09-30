@@ -1,0 +1,39 @@
+<boards>
+  <board>
+    <id>CY8CKIT-062S4</id>
+    <category>PSoC 6 BSPs</category>
+    <board_uri>https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S4</board_uri>
+    <chips>
+      <mcu>CY8C6244LQI-S4D92</mcu>
+    </chips>
+    <name>CY8CKIT-062S4</name>
+    <summary>The PSoC 62S4 Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 62S4 Line (CY8C6244LQI-S4D92).</summary>
+    <prov_capabilities>psoc6 mcu_gp arduino j2 led rgb_led switch capsense capsense_button capsense_linear_slider qspi memory memory_qspi nor_flash fram std_crypto smart_io pdm i2s cy8ckit_062s4</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>Serial memory interface</li>
+        <li>Industry-leading CapSense</li>
+        <li>Ambient Light Sensor</li>
+        <li>Thermistor</li>
+        </ul><p/>
+        <div class="category">Kit Contents:</div><ul>
+        <li>CY8CKIT-062S4 evaluation board</li>
+        <li>USB Type-A to Micro-B cable</li>
+        <li>Quick Start Guide</li>
+        <li>Four jumper wires (4 inches each)</li>
+        <li>Two jumper wires (5 inches each)</li>
+        </ul>
+      ]]></description>
+    <documentation_url>http://www.cypress.com/CY8CKIT-062S4</documentation_url>
+    <versions>
+      <version tools_min_version="2.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version tools_min_version="2.2.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </board>
+</boards>
